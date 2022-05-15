@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout MASSA</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+
+    <header class="header">
+      <div class="container fadeIn">
+        <a href="#" class="logo"
+          ><img
+            src="https://exerciseflex.netlify.app/images/logo.png"
+            alt="Logo, escrito MASSA, em negrito e abaixo uma linha colorida"
+        /></a>
+        <form action="#" class="signin fadeIn">
+          <fieldset>
+            <label for="email">E-mail</label>
+            <input type="text" placeholder="Digite seu email" id="email" />
+          </fieldset>
+          <fieldset>
+            <label for="senha">Senha</label>
+            <input type="text" placeholder="Digite sua Senha" id="senha" />
+          </fieldset>
+          <button type="submit" class="btn-entrar">Entrar</button>
+        </form>
+      </div>
+    </header>
+    <main>
+      <!-- INTRO -->
+
+      <section class="intro">
+        <div class="container fadeIn">
+          <div class="intro-wrapper">
+            <h1 class="intro__title">
+              Ajudamos <span>programadores</span> a conseguirem seus
+              <span>primeiros empregos</span>
+            </h1>
+            <p class="intro__description">
+              Mais de 100 mil desenvolvedores já conseguiram seu primeiro
+              emprego através da nossa plataforma
+            </p>
+
+            <div class="intro__buttons">
+              <button class="btn-primary">Sou Programador</button>
+              <button class="btn-white">Somos empresas contratando</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- LINGUAGENS -->
+
+      <section class="linguagens">
+        <div class="container fadeIn">
+          <h2>Linguagens</h2>
+          <div class="linguagens__itens">
+            <div class="linguagens__itens--card">
+              <p>Ruby</p>
+            </div>
+            <div class="linguagens__itens--card">
+              <p>Javascript</p>
+            </div>
+            <div class="linguagens__itens--card">
+              <p>Elixer</p>
+            </div>
+            <div class="linguagens__itens--card">
+              <p>Python</p>
+            </div>
+            <div class="linguagens__itens--card">
+              <p>Go</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEAM -->
+
+      <section class="team">
+        <div class="container fadeIn">
+          <h2>Nosso Time</h2>
+          <div class="team__item">
+            <div class="team__item--avatar">
+              <img
+                src="https://exerciseflex.netlify.app/images/team/walter.jpg"
+                alt="homem, com chapeu e oculos, aparenta ter mais de   50 anos"
+              />
+            </div>
+            <div class="team__item--avatar">
+              <img
+                src="https://exerciseflex.netlify.app/images/team/jesse.jpg"
+                alt="Homem com bigode,  cabelo curto, branco, aparenta ter uns 40 anos"
+              />
+            </div>
+            <div class="team__item--avatar">
+              <img
+                src="https://exerciseflex.netlify.app/images/team/skyler.jpg"
+                alt="Mulher loira, branca, cabelo curto até os ombros, aparenta ter uns 40 anos"
+              />
+            </div>
+            <div class="team__item--avatar">
+              <img
+                src="https://exerciseflex.netlify.app/images/team/hank.jpg"
+                alt="Homem careca,com uma expressão no rosto colocando medo, aparenta ter uns 50 anos"
+              />
+            </div>
+            <div class="team__item--avatar">
+              <img
+                src="https://exerciseflex.netlify.app/images/team/gus.jpg"
+                alt="Homem, cabelo bem curto, calvo na frente, de oculos e aparenta ter mais de 45 anos, e parece ser intelectual"
+              />
+            </div>
+            <div class="team__item--avatar">
+              <img
+                src="https://exerciseflex.netlify.app/images/team/mike.jpg"
+                alt="Homem careca, nariz grande,  cara de desconfiado"
+              />
+            </div>
+            <div class="team__item--avatar">
+              <img
+                src="https://exerciseflex.netlify.app/images/team/saul.jpg"
+                alt="Homem, cabelo curto, um pouco calvo na aos lado, com a mão direita fechada em frente a boca, com um anel, e parece ser misterioso"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- RODAPE -->
+    <footer class="rodape">
+      <div class="container">
+        <ul class="menu-rodape">
+          <li><a href="#">Política de privacidade</a></li>
+          <li><a href="#">Carreira</a></li>
+          <li><a href="#">Linkedin</a></li>
+          <li><a href="#">Youtube</a></li>
+          <li><a href="#">Facebook</a></li>
+        </ul>
+        <p class="copyright">© Massa. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
