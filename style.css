@@ -14,6 +14,8 @@
   left: 0;
   right: 0;
   z-index: 1;
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
   padding: 0rem;
 }
 
@@ -491,6 +493,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  position: relative;
 }
 
 .rodape .container .menu-rodape {
@@ -532,5 +535,32 @@
 .rodape .container .copyright {
   font-size: 1.5rem;
   color: var(--white);
+}
+
+.rodape .container .top {
+  display: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: var(--white);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 880px) {
+  .rodape .container .top {
+    right: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 /*# sourceMappingURL=style.css.map */

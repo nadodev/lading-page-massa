@@ -1,6 +1,6 @@
 const header = document.querySelector(".header");
 
-// Language: javascript
+// Function Header Fixed
 console.log(window.pageYOffset);
 function scrollHeader() {
   const windowTop = window.pageYOffset;
@@ -15,3 +15,15 @@ function scrollHeader() {
 window.addEventListener("scroll", () => {
   scrollHeader();
 });
+
+// Function ButtonGoToTop
+
+const btnTop = document.querySelector(".top");
+
+const goToTop = () => {
+  document.body.scrollIntoView({
+    behavior: "smooth",
+  });
+};
+
+btnTop.addEventListener("click", goToTop);

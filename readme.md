@@ -1,6 +1,6 @@
 ## LAYOUT SITE MASSA
 
-- Fiz esse site, em base de um site, já pronto, porem não estava responsivo, e com alguns erros de acessibilidade e alinhamentos.
+- Fiz essa Landing Page, em base de um site, já pronto, porem não estava responsivo, e com alguns erros de acessibilidade e alinhamentos.
 
 * Layout totalmente responsivo, utilizando apenas css, html e javscript
 

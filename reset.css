@@ -9,6 +9,10 @@ html {
   font-family: "Varela Round", sans-serif;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 fieldset {
   border: 0;
 }
