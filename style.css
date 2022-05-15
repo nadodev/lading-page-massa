@@ -17,6 +17,12 @@
   padding: 0rem;
 }
 
+@media (max-width: 696px) {
+  .header.fixed {
+    padding: 2rem;
+  }
+}
+
 .header .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -44,6 +50,12 @@
 .header .logo img {
   width: 21.1rem;
   height: 7rem;
+}
+
+@media (max-width: 696px) {
+  .header .logo {
+    margin-bottom: 2rem;
+  }
 }
 
 .header .signin {
