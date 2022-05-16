@@ -57,6 +57,9 @@ function login() {
   let textEmail = email.value;
   let textSenha = senha.value;
 
+  textSenha.value = "";
+  textEmail.value = "";
+
   if (textEmail !== null && !textSenha !== null) {
     openModal();
     const storage = localStorage.setItem("email", textEmail);
